@@ -17,8 +17,8 @@ body {
 }
 p{
   position: absolute;
-  bottom: 24%; 
-  left: 35%;
+  bottom: 25%; 
+  left: 36%;
   font-size: 20px;
   width: 30%; 
   max-height: 85px;
@@ -44,26 +44,46 @@ button:hover{
   color: rgb(255, 255, 255);
   opacity: 0.8;
  } 
+
+ @media (max-width: 1432px) { 
+  p {
+    min-width: 30%;
+  }
+  button {
+    left: 25%;
+    padding: 4% 3%;
+  }
+ }
  @media (max-width: 1200px) { 
   button {
-    left: 35%;
-    transform: translateX(-50%);
+    left: 25%;
+    padding: 4% 3%;
+  }
+ }
+ @media (max-width: 986px) { 
+  button {
+    left: 20%;
     padding: 4% 3%;
   }
  }
  @media (max-width: 768px) {
   p {
     bottom: 24%; 
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 100%;
+    left: 30%;
+    min-width: 50%;
     font-size: 16px;
   }
   button {
-    left: 20%;
-    transform: translateX(-50%);
+    left: 18%;
   }
+}
+@media (max-width: 368px) {
   img {
     width: 90%;
   }
 }
+
+
+
+
+ 
