@@ -37,14 +37,13 @@ button{
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
-button:hover {
+button:hover{
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
   background-color: rgba(187, 69, 100, 0.615);
   color: rgb(255, 255, 255);
   opacity: 0.8;
  } 
-
  @media (max-width: 1200px) { 
   button {
     left: 35%;
@@ -52,7 +51,6 @@ button:hover {
     padding: 4% 3%;
   }
  }
-
  @media (max-width: 768px) {
   p {
     bottom: 24%; 
@@ -65,7 +63,6 @@ button:hover {
     left: 20%;
     transform: translateX(-50%);
   }
-
   img {
     width: 90%;
   }
