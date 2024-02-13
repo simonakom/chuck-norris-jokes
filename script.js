@@ -2,7 +2,6 @@ const p = document.querySelector("p");
 const btn = document.querySelector("button");
 const url = "https://api.chucknorris.io/jokes/random";
 
-
 // function getJoke(){
 //     fetch(url)
 //     .then(res => res.json())
