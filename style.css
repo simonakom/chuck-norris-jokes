@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 body {
   background-color: rgb(223, 234, 231);
 }
-.container{
+.container {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -15,7 +15,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-p{
+p {
   position: absolute;
   bottom: 25%; 
   left: 36%;
@@ -26,21 +26,21 @@ p{
   flex-wrap: wrap;
   padding-bottom: 10px;
 }
-button{
+button {
   position: absolute;
   bottom: 68%;
   left: 35%; 
   padding: 3% 1%;
   border: none;
   border-radius: 100%;
-  background-color: rgba(161, 83, 104, 0.615);
+  background-color: #cd552ac4;
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
-button:hover{
+button:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
-  background-color: rgba(187, 69, 100, 0.615);
+  background-color: #e2460d;
   color: rgb(255, 255, 255);
   opacity: 0.8;
  } 
